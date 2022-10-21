@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/indent */
 import { lazy } from 'react'
 
-const Home = lazy(() => import('src/pages/Home'))
-const AboutMe = lazy(() => import('src/pages/AboutMe'))
-const PageNotFound = lazy(() => import('src/pages/PageNotFound'))
+const Home = lazy(() => import('pages/Home'))
+const AboutMe = lazy(() => import('pages/AboutMe'))
+const PageNotFound = lazy(() => import('pages/PageNotFound'))
 
 export const pages = {
     home: {

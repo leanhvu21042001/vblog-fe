@@ -1,4 +1,4 @@
-import renderRouter from 'src/routes/routes'
+import renderRouter from 'routes'
 import './App.scss'
 
 function App() {

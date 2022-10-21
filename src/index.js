@@ -1,12 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import App from './pages/App'
+import App from 'pages/App'
 import reportWebVitals from './reportWebVitals'
 
 import './assets/scss/base.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
+
+if (process.env.NODE_ENV !== 'production') {
+  const axe = require('@axe-core/react')
+  axe(React, ReactDOM, 1000)
+}
+
 root.render(
   <React.StrictMode>
     <App />

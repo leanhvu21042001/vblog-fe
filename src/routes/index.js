@@ -1,7 +1,7 @@
 import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 
 import { Suspense } from 'react'
-import { createKeyForRoute } from 'src/helpers'
+import { createKeyForRoute } from 'helpers'
 import { pages } from './routes.constants'
 
 const renderRouter = () =>
