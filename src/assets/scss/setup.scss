@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+::selection {
+  color: $selectionColor;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -18,13 +22,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   font-size: 1.6rem;
-  color: $clr-white;
-  background-color: $bg-clr;
+  color: $white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-
